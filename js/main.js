@@ -1,26 +1,27 @@
-  document.addEventListener( 'DOMContentLoaded', function() {
-    var splide = new Splide( '.splide', {
-      type   : 'loop',
-      pagination: false,
-      rewind: false,
-      waitForTransition: false,
-      flickMaxPages: 0.5,
-      arrows: false,
-      gap: '32px',
-      fixedWidth: '40%',
-      breakpoints: {
-
-        1440: {
-          arrows: false,
-          gap: '1.2rem',
-          fixedWidth: '39%',
-        }
+document.addEventListener('DOMContentLoaded', function () {
+  var splide = new Splide('.splide', {
+    type: 'loop',
+    pagination: false,
+    rewind: true,
+    arrows: true,
+    gap: '32px',
+    perPage: 2.5,
+    focus: 1,
+    trimSpace: false,
+    breakpoints: {
+      768: {
+        arrows: false,
+        gap: '1.2rem',
+        perPage: 2.5,
+        focus: 1,
 
       }
-    } );
 
-    splide.mount();
+    }
+  });
+
+  splide.mount();
 
 
 
-  } );
+});

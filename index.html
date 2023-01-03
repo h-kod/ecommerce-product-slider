@@ -7,253 +7,269 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
+  
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
   <link rel="stylesheet" href="css/main.css">
-  <!-- Tailwind CSS -->
 </head>
 
 <body>
 
-    <div class="grid lg:grid-cols-2">
-
-      <div class="">
-        <img src="img/bg.png" alt="">
-      </div>
-
-      <div>
-        <div class="featured-collection__main  p-[50px] xl:p-[100px] max-lg:absolute max-lg:bottom-0 max-lg:text-white max-sm:w-[150%]">
-          <div class="featured-collection__main-wrapper">
-            <div class="featured-collection__head xl:mb-[60px]" data-fade-in="">
-              <h3 class="featured-collection__title h4 ">Everyday items, we have something to suit every occasion.</h3>
-              <p class="featured-collection__entry p1 color-body hidden lg:block">At suspendisse augue lectus arcu, accumsan ut sit
-                posuere vitae sit tincidunt semper eu proin leo gravida cursus.</p>
-              <a href=""
-                class="button-link button-link--medium featured-collection__link motion-reduce max-lg:text-2xl">Shop all everyday
-                items</a>
-            </div>
-
-          </div>
+<div class="lg:grid lg:grid-cols-2">
+  
+  <div class="w-full">
+    <img src="img/bg.png" alt="">
+  </div>
+  
+  <div class="w-full relative">
+    <div
+      class="featured-collection__main max-lg:m-t-[-355px] max-lg:pb-[140px] max-lg:pt-[56px] lg:bg-[#fff] tx-after pl-[50px] max-lg:pl-[30px]  xl:p-[100px] md:p-[50px] max-lg:absolute max-lg:top-[-330px] max-lg:text-white max-sm:w-[100%]">
+      <div class="dvd lg:hidden"></div>
+      <div class="featured-collection__main-wrapper relative">
+        <div class="featured-collection__head xl:mb-[60px]" data-fade-in="">
+          <h3 class="featured-collection__title h4 ">Everyday items, we have something to suit every occasion.</h3>
+          <p class="featured-collection__entry p1 color-body hidden lg:block">At suspendisse augue lectus arcu, accumsan
+            ut sit
+            posuere vitae sit tincidunt semper eu proin leo gravida cursus.</p>
+          <a href=""
+             class="max-lg:after:bg-[#fff] button-link button-link--medium featured-collection__link motion-reduce max-lg:text-[16px]">Shop
+            all everyday
+            items</a>
         </div>
-
-        <div class="splide pl-[50px] xl:pl-[100px] max-lg:-mt-[4rem]" role="group" aria-label="Splide Basic HTML Example">
-          <div class="splide__track">
-            <ul class="splide__list">
-              <li class="splide__slide">
-                <product-card class="product-card"
-                  data-url=""
-                  data-product-title="Jacket With Buttons" data-product-id="7566833844445">
-                  <div class="product-card__media"><a
-                      href=""
-                      class="product-card__link" title="Jacket With Buttons" data-product-link=""></a>
-                    <div class="media media--3-4 has-hover" data-product-media="">
-                      <img src="img/p1.png">
-                    </div>
-                  </div>
-
-                  <div class="product-card__content">
-                    <h3 class="product-card__title p2 p2--fixed regular"><a
-                        href=""
-                        class="full-unstyled-link max-lg:text-[2.2rem] max-lg:pt-10" data-product-link="">Jacket With Buttons</a></h3>
-
-                    <div class="product-card__meta">
-                      <div class="p2 p2--fixed medium price price--default
-                    product-card__price product-card__price--small
-                "><span class="price__regular max-lg:text-[2.2rem]">$68.95 USD</span>
-                        <div class="unit-price caption caption--mobile color-body rte"></div>
-                      </div>
-                      <ul class="list-swatches list-unstyled product-card__swatches list-swatches--round no-js-hidden"
-                        data-swatches="">
-                        <li>
-                          <input type="radio"
-                            name="green"
-                            id="Value--green"
-                            value="green" class="visually-hidden" data-option-position="1" checked="">
-                          <label
-                            for="Value--green"
-                            class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce" style="background-color: green;">Green</label>
-                        </li>             
-                        <li>
-                          <input type="radio"
-                            name="green"
-                            id="Value--green"
-                            value="green" class="visually-hidden" data-option-position="1" checked="">
-                          <label
-                            for="Value--green"
-                            class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce" style="background-color: red;">Green</label>
-                        </li>
-                        <li>
-                          <input type="radio"
-                            name="green"
-                            id="Value--green"
-                            value="green" class="visually-hidden" data-option-position="1" checked="">
-                          <label
-                            for="Value--green"
-                            class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce" style="background-color: black;">Green</label>
-                        </li>
-                        <li>
-                          <input type="radio"
-                            name="green"
-                            id="Value--green"
-                            value="green" class="visually-hidden" data-option-position="1" checked="">
-                          <label
-                            for="Value--green"
-                            class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce" style="background-color: thistle;">Green</label>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </product-card>
-              </li>
-              <li class="splide__slide">
-                <product-card class="product-card"
-                  data-url=""
-                  data-product-title="Jacket With Buttons" data-product-id="7566833844445">
-                  <div class="product-card__media"><a
-                      href=""
-                      class="product-card__link" title="Jacket With Buttons" data-product-link=""></a>
-                    <div class="media media--3-4 has-hover" data-product-media="">
-                      <img src="img/p2.png">
-                    </div>
-                  </div>
-
-                  <div class="product-card__content">
-                    <h3 class="product-card__title p2 p2--fixed regular max-lg:text-2xl"><a
-                        href=""
-                        class="full-unstyled-link max-lg:text-[2.2rem] max-lg:pt-10" data-product-link="">Jacket With Buttons</a></h3>
-
-                    <div class="product-card__meta">
-                      <div class="p2 p2--fixed medium price price--default
-                    product-card__price product-card__price--small
-                "><span class="price__regular max-lg:text-[2.2rem]">$68.95 USD</span>
-                        <div class="unit-price caption caption--mobile color-body rte"></div>
-                      </div>
-                      <ul class="list-swatches list-unstyled product-card__swatches list-swatches--round no-js-hidden text-2xl"
-                        data-swatches="">
-                        <li>
-                          <input type="radio"
-                            name="green"
-                            id="Value--green"
-                            value="green" class="visually-hidden" data-option-position="1" checked="">
-                          <label
-                            for="Value--green"
-                            class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce" style="background-color: green;">Green</label>
-                        </li>             
-                        <li>
-                          <input type="radio"
-                            name="green"
-                            id="Value--green"
-                            value="green" class="visually-hidden" data-option-position="1" checked="">
-                          <label
-                            for="Value--green"
-                            class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce" style="background-color: red;">Green</label>
-                        </li>
-                        <li>
-                          <input type="radio"
-                            name="green"
-                            id="Value--green"
-                            value="green" class="visually-hidden" data-option-position="1" checked="">
-                          <label
-                            for="Value--green"
-                            class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce" style="background-color: black;">Green</label>
-                        </li>
-                        <li>
-                          <input type="radio"
-                            name="green"
-                            id="Value--green"
-                            value="green" class="visually-hidden" data-option-position="1" checked="">
-                          <label
-                            for="Value--green"
-                            class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce" style="background-color: thistle;">Green</label>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </product-card>
-              </li>
-              <li class="splide__slide">
-                <product-card class="product-card"
-                  data-url=""
-                  data-product-title="Jacket With Buttons" data-product-id="7566833844445">
-                  <div class="product-card__media"><a
-                      href=""
-                      class="product-card__link" title="Jacket With Buttons" data-product-link=""></a>
-                    <div class="media media--3-4 has-hover" data-product-media="">
-                      <img src="img/p3.png">
-                    </div>
-                  </div>
-
-                  <div class="product-card__content">
-                    <h3 class="product-card__title p2 p2--fixed regular max-lg:text-2xl"><a
-                        href=""
-                        class="full-unstyled-link max-lg:text-[2.2rem] max-lg:pt-10" data-product-link="">Jacket With Buttonss</a></h3>
-
-                    <div class="product-card__meta">
-                      <div class="p2 p2--fixed medium price price--default
-                    product-card__price product-card__price--small
-                "><span class="price__regular max-lg:text-[2.2rem]">$68.95 USD</span>
-                        <div class="unit-price caption caption--mobile color-body rte"></div>
-                      </div>
-                      <ul class="list-swatches list-unstyled product-card__swatches list-swatches--round no-js-hidden"
-                        data-swatches="">
-                        <li>
-                          <input type="radio"
-                            name="green"
-                            id="Value--green"
-                            value="green" class="visually-hidden" data-option-position="1" checked="">
-                          <label
-                            for="Value--green"
-                            class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce" style="background-color: green;">Green</label>
-                        </li>             
-                        <li>
-                          <input type="radio"
-                            name="green"
-                            id="Value--green"
-                            value="green" class="visually-hidden" data-option-position="1" checked="">
-                          <label
-                            for="Value--green"
-                            class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce" style="background-color: red;">Green</label>
-                        </li>
-                        <li>
-                          <input type="radio"
-                            name="green"
-                            id="Value--green"
-                            value="green" class="visually-hidden" data-option-position="1" checked="">
-                          <label
-                            for="Value--green"
-                            class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce" style="background-color: black;">Green</label>
-                        </li>
-                        <li>
-                          <input type="radio"
-                            name="green"
-                            id="Value--green"
-                            value="green" class="visually-hidden" data-option-position="1" checked="">
-                          <label
-                            for="Value--green"
-                            class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce" style="background-color: thistle;">Green</label>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </product-card>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- </div> -->
+      
       </div>
-
     </div>
+    
+    <div class="splide pl-[50px] max-lg:pl-[30px]  xl:pl-[100px] max-lg:-mt-[4rem]" role="group"
+         aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">
+            <product-card class="product-card"
+                          data-url=""
+                          data-product-title="Jacket With Buttons" data-product-id="7566833844445">
+              <div class="product-card__media"><a
+                href=""
+                class="product-card__link" title="Jacket With Buttons" data-product-link=""></a>
+                <div class="media media--3-4 has-hover" data-product-media="">
+                  <img src="img/p1.png">
+                </div>
+              </div>
+              
+              <div class="product-card__content">
+                <h3 class="product-card__title p2 p2--fixed regular"><a
+                  href=""
+                  class="full-unstyled-link max-lg:text-[1.2rem] max-lg:pt-10" data-product-link="">Organic Skinny High
+                  Waist Raw Hem Jeans</a></h3>
+                
+                <div class="product-card__meta max-lg:flex-col text-left">
+                  <div class="p2 p2--fixed medium price price--default
+                    product-card__price product-card__price--small
+                "><span class="price__regular max-lg:text-[1.2rem]">$68.95</span>
+                    <div class="unit-price caption caption--mobile color-body rte"></div>
+                  </div>
+                  <ul class="list-swatches list-unstyled product-card__swatches list-swatches--round no-js-hidden"
+                      data-swatches="">
+                    <li>
+                      <input type="radio"
+                             name="green"
+                             id="Value--green"
+                             value="green" class="visually-hidden" data-option-position="1" checked="">
+                      <label
+                        for="Value--green"
+                        class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce"
+                        style="background-color: green;">Green</label>
+                    </li>
+                    <li>
+                      <input type="radio"
+                             name="green"
+                             id="Value--green"
+                             value="green" class="visually-hidden" data-option-position="1" checked="">
+                      <label
+                        for="Value--green"
+                        class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce"
+                        style="background-color: red;">Green</label>
+                    </li>
+                    <li>
+                      <input type="radio"
+                             name="green"
+                             id="Value--green"
+                             value="green" class="visually-hidden" data-option-position="1" checked="">
+                      <label
+                        for="Value--green"
+                        class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce"
+                        style="background-color: black;">Green</label>
+                    </li>
+                    <li>
+                      <input type="radio"
+                             name="green"
+                             id="Value--green"
+                             value="green" class="visually-hidden" data-option-position="1" checked="">
+                      <label
+                        for="Value--green"
+                        class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce"
+                        style="background-color: thistle;">Green</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </product-card>
+          </li>
+          <li class="splide__slide">
+            <product-card class="product-card"
+                          data-url=""
+                          data-product-title="Jacket With Buttons" data-product-id="7566833844445">
+              <div class="product-card__media"><a
+                href=""
+                class="product-card__link" title="Jacket With Buttons" data-product-link=""></a>
+                <div class="media media--3-4 has-hover" data-product-media="">
+                  <img src="img/p2.png">
+                </div>
+              </div>
+              
+              <div class="product-card__content">
+                <h3 class="product-card__title p2 p2--fixed regular max-lg:text-2xl"><a
+                  href=""
+                  class="full-unstyled-link max-lg:text-[1.2rem] max-lg:pt-10" data-product-link="">Organic Skinny High
+                  Waist Raw Hem Jeans</a></h3>
+                
+                <div class="product-card__meta max-lg:flex-col text-left">
+                  <div class="p2 p2--fixed medium price price--default
+                    product-card__price product-card__price--small
+                "><span class="price__regular max-lg:text-[1.2rem]">$68.95</span>
+                    <div class="unit-price caption caption--mobile color-body rte"></div>
+                  </div>
+                  <ul
+                    class="list-swatches list-unstyled product-card__swatches list-swatches--round no-js-hidden text-2xl"
+                    data-swatches="">
+                    <li>
+                      <input type="radio"
+                             name="green"
+                             id="Value--green"
+                             value="green" class="visually-hidden" data-option-position="1" checked="">
+                      <label
+                        for="Value--green"
+                        class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce"
+                        style="background-color: green;">Green</label>
+                    </li>
+                    <li>
+                      <input type="radio"
+                             name="green"
+                             id="Value--green"
+                             value="green" class="visually-hidden" data-option-position="1" checked="">
+                      <label
+                        for="Value--green"
+                        class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce"
+                        style="background-color: red;">Green</label>
+                    </li>
+                    <li>
+                      <input type="radio"
+                             name="green"
+                             id="Value--green"
+                             value="green" class="visually-hidden" data-option-position="1" checked="">
+                      <label
+                        for="Value--green"
+                        class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce"
+                        style="background-color: black;">Green</label>
+                    </li>
+                    <li>
+                      <input type="radio"
+                             name="green"
+                             id="Value--green"
+                             value="green" class="visually-hidden" data-option-position="1" checked="">
+                      <label
+                        for="Value--green"
+                        class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce"
+                        style="background-color: thistle;">Green</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </product-card>
+          </li>
+          <li class="splide__slide">
+            <product-card class="product-card"
+                          data-url=""
+                          data-product-title="Jacket With Buttons" data-product-id="7566833844445">
+              <div class="product-card__media"><a
+                href=""
+                class="product-card__link" title="Jacket With Buttons" data-product-link=""></a>
+                <div class="media media--3-4 has-hover" data-product-media="">
+                  <img src="img/p3.png">
+                </div>
+              </div>
+              
+              <div class="product-card__content">
+                <h3 class="product-card__title p2 p2--fixed regular max-lg:text-2xl"><a
+                  href=""
+                  class="full-unstyled-link max-lg:text-[1.2rem] max-lg:pt-10" data-product-link="">Organic Skinny High
+                  Waist Raw Hem Jeans</a></h3>
+                
+                <div class="product-card__meta max-lg:flex-col text-left">
+                  <div class="p2 p2--fixed medium price price--default
+                    product-card__price product-card__price--small
+                "><span class="price__regular max-lg:text-[1.2rem]">$68.95</span>
+                    <div class="unit-price caption caption--mobile color-body rte"></div>
+                  </div>
+                  <ul class="list-swatches list-unstyled product-card__swatches list-swatches--round no-js-hidden"
+                      data-swatches="">
+                    <li>
+                      <input type="radio"
+                             name="green"
+                             id="Value--green"
+                             value="green" class="visually-hidden" data-option-position="1" checked="">
+                      <label
+                        for="Value--green"
+                        class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce"
+                        style="background-color: green;">Green</label>
+                    </li>
+                    <li>
+                      <input type="radio"
+                             name="green"
+                             id="Value--green"
+                             value="green" class="visually-hidden" data-option-position="1" checked="">
+                      <label
+                        for="Value--green"
+                        class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce"
+                        style="background-color: red;">Green</label>
+                    </li>
+                    <li>
+                      <input type="radio"
+                             name="green"
+                             id="Value--green"
+                             value="green" class="visually-hidden" data-option-position="1" checked="">
+                      <label
+                        for="Value--green"
+                        class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce"
+                        style="background-color: black;">Green</label>
+                    </li>
+                    <li>
+                      <input type="radio"
+                             name="green"
+                             id="Value--green"
+                             value="green" class="visually-hidden" data-option-position="1" checked="">
+                      <label
+                        for="Value--green"
+                        class="swatch max-md:!w-[25px] max-md:!h-[25px] swatch--greenmotion-reduce"
+                        style="background-color: thistle;">Green</label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </product-card>
+          </li>
+        </ul>
+      </div>
+    </div>
+    
+    <!-- </div> -->
+  </div>
+
+</div>
 
 
-
-
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
-  <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script> -->
-
-  <script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script src="js/main.js"></script>
 
 
 </body>
