@@ -1,6 +1,6 @@
 
 ## Screenshots  
-![App Screenshot](https://heartfelt-faun-fbf346.netlify.app/screenshot.jpg)  
+![Screenshot](screenshot.jpg)  
 
 
 # Description
