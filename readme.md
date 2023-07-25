@@ -1,6 +1,6 @@
 
 ## Screenshots  
-![Screenshot](screenshot.jpg)  
+![Screenshot](screenshot.png)  
 
 
 # Description
